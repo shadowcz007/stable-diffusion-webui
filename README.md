@@ -1,5 +1,12 @@
 # Stable Diffusion web UI
-A browser interface based on Gradio library for Stable Diffusion.
+
+
+国内用户需要添加
+
+https://ghproxy.com/
+
+gfpgan_package = os.environ.get('GFPGAN_PACKAGE', "git+https://ghproxy.com/https://github.com/TencentARC/GFPGAN.git@8d2447a2d918f8eba5a4a01463fd48e45126a379")
+
 
 ![](screenshot.png)
 
